@@ -1,0 +1,10 @@
+name: eComscan
+on: [push]
+
+jobs:
+  run-ecomscan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: sansecio/ecomscan-github-action@main
+
